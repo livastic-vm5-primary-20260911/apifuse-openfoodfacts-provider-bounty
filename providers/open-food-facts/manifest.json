@@ -1,0 +1,10 @@
+{
+  "auth": "none",
+  "category": "data",
+  "displayName": "Open Food Facts",
+  "id": "open-food-facts",
+  "language": "typescript",
+  "runtime": "standard",
+  "sdkVersion": 2,
+  "version": "1.0.0"
+}

@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "types": [
+      "bun-types"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@apifuse/provider-sdk": [
+        "./node_modules/@apifuse/provider-sdk/src/define.ts"
+      ]
+    }
+  },
+  "include": [
+    "providers/open-food-facts/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "providers/open-food-facts/dev.ts"
+  ]
+}

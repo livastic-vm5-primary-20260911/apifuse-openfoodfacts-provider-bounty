@@ -1,0 +1,8 @@
+node_modules/
+bun.lockb
+.env
+.env.*
+!.env.example
+*.log
+tools/scaffold.stdout.txt
+.DS_Store
